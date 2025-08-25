@@ -68,7 +68,7 @@ npm run deploy
 * **UI & Styling**
 
   * TailwindCSS for responsive layouts
-  * DaisyUI for quick styling and consistent design
+  * ShadCnUI for quick styling and consistent design
 
 * **Interactivity**
 
