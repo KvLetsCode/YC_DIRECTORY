@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🚀 YC Directory
 
-First, run the development server:
+A web app inspired by the **Y Combinator startup directory**, where users can browse, search, and explore startups with ease.  
+This project focuses on **clean UI, smooth navigation, and fast filtering**.
+
+🔗 **Live Demo:** [YC Directory](https://your-username.github.io/yc-directory/)  
+
+---
+
+## ✨ Features
+- Browse startups in a modern, responsive UI  
+- Search and filter startups by **name, industry, or stage**  
+- Dynamic rendering of startup cards  
+- Smooth user experience with **manual navigation + responsive layout**  
+- Built with a focus on **performance and scalability**  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, Vite, TailwindCSS  
+- **Data Handling:** JSON / API mock (can be extended to real data)  
+- **Deployment:** GitHub Pages  
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/yc-directory.git
+cd yc-directory
+npm install
+````
+
+Run locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deploy to GitHub Pages:
 
-## Learn More
+```bash
+npm run deploy
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🛠 How I Built It
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Component-based React architecture**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  * `StartupCard` for individual startup entries
+  * `SearchBar` for live search
+  * `FilterControls` for industry/stage filtering
+  * `Directory` for rendering the grid
+
+* **UI & Styling**
+
+  * TailwindCSS for responsive layouts
+  * DaisyUI for quick styling and consistent design
+
+* **Interactivity**
+
+  * Implemented manual navigation and filtering logic in React
+  * Added state management with React hooks (`useState`, `useEffect`)
+
+* **Performance**
+
+  * Used **Vite** for lightning-fast dev/build setup
+  * Optimized rendering with conditional maps and filtered lists
+
+* **Deployment**
+
+  * Hosted on **GitHub Pages** for free and accessible live demo
+
+---
+
+## 📬 Contact
+
+If you’d like to connect or collaborate, reach out here:
+
+* 🌐 [Portfolio Website](https://your-username.github.io/portfolio/)
+* 📧 [Email](chaudharykeshu9@gmail.com)
+
+---
+
+⭐ If you like this project, consider giving the repo a star!
+
+
